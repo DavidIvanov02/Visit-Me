@@ -1,3 +1,7 @@
+<?php
+include 'dbconnect.php';
+include('includes/header.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,10 +16,6 @@
     </style>
 </head>
 <body id="top">
-<?php
-include 'dbconnect.php';
-include('includes/header.php');
-?>
 <header class="ccheader">
     <h1>Контактна форма</h1>
 </header>

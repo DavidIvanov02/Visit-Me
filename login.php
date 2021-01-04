@@ -56,6 +56,8 @@ if( isset($_POST['btn-login']) ) {
     }
 
 }
+
+include('includes/header.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -69,9 +71,6 @@ if( isset($_POST['btn-login']) ) {
 
 </head>
 <body id="top">
-<?php
-include('includes/header.php');
-?>
 
 <div class="container">
     <div id="login-form">

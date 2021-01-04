@@ -56,6 +56,8 @@ Incorrect credentials, try again ...";
     }
 
 }
+
+include('includes/header_en.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -69,10 +71,6 @@ Incorrect credentials, try again ...";
 
 </head>
 <body id="top">
-<?php
-include('includes/header_en.php');
-?>
-
 <div class="container">
     <div id="login-form">
         <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off">

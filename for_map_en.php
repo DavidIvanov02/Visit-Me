@@ -1,3 +1,7 @@
+<?php
+include 'dbconnect.php';
+include('includes/header_en.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,11 +21,6 @@
     </style>
 </head>
 <body id="top">
-<?php
-include 'dbconnect.php';
-include('includes/header_en.php');
-?>
-
 <div class="services" id="service">
     <br>
     <div style="text-align:center">

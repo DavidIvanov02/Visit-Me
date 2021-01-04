@@ -1,3 +1,12 @@
+<?php 
+	include "map_php/init.php";
+	include '../dbconnect.php';
+	if(!isset($userRow['userName'])){
+		header("Location: ".Base_url()."login.php");
+	}
+	
+	$zabelejitelnosti = $db->getAllSights();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,15 +22,6 @@
 @media screen and (max-width:900px){.container .demo div{margin-bottom:0;}}
 </style>
 </head>
-<?php 
-	include "map_php/init.php";
-	include '../dbconnect.php';
-	if(!isset($userRow['userName'])){
-		header("Location: ".Base_url()."login.php");
-	}
-	
-	$zabelejitelnosti = $db->getAllSights();
-?>
 <!DOCTYPE html>
 <html>
 <head>

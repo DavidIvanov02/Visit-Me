@@ -18,7 +18,7 @@ define('DBPASS', 'noit1_visitme');
 define('DBNAME', 'noit1_visitme_db');
 
 $conn = @mysqli_connect(DBHOST,DBUSER,DBPASS);
-$dbcon = mysqli_select_db($conn, DBNAME);\
+$dbcon = mysqli_select_db($conn, DBNAME);
     mysqli_query($conn, "SET NAMES'utf8'");
 
 if ( !$conn ) {

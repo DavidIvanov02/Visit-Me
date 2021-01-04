@@ -1,3 +1,7 @@
+<?php
+include 'dbconnect.php';
+include('includes/header.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,10 +19,6 @@
     </style>
 </head>
 <body id="top">
-<?php
-include 'dbconnect.php';
-include('includes/header.php');
-?>
 <div class="wrapper row4 bgded overlay" style="background-image:url('images/demo/backgrounds/black.jpg');">
     <footer id="footer" class="hoc clear">
         <section class="our-services slideanim" id="service">
